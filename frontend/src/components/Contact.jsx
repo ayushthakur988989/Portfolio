@@ -40,14 +40,16 @@ const Contact = () => {
   return (
     <footer
       id="contact"
-      className="relative w-full py-20 px-6 md:px-12 z-10 border-t border-white/10"
+      className="relative w-full py-20 px-0 z-10 border-t border-white/10 overflow-hidden"
     >
       <ScrollReveal>
-        <div className="w-full max-w-[2400px] mx-auto flex flex-col items-center text-center"
+        <div
+          className="relative left-1/2 -translate-x-1/2 flex flex-col items-center text-center box-border"
           style={{
+            width: 'min(1600px, calc(100vw - 24px))',
             marginTop: '5vh',
-
-          }}>
+          }}
+        >
           {/* Footer Heading */}
           <div className="flex flex-col gap-3 items-center text-center mb-12"
             style={{ marginBottom: "2vh" }}

@@ -29,7 +29,7 @@ const Skills = () => {
   return (
     <section
   id="skills-detail"
-  className="relative w-full py-28 px-6 md:px-12 z-10"
+  className="relative w-full py-28 px-0 z-10 overflow-hidden"
   style={{
     marginTop: "80px",
     border: "1px solid transparent"
@@ -45,9 +45,11 @@ const Skills = () => {
           </h2>
         </div>
 
-        <div className="max-w-[1400px] mx-auto"
+        <div
+          className="relative left-1/2 -translate-x-1/2 box-border"
     
         style={{
+    width: "min(1400px, calc(100vw - 24px))",
     marginTop: "40px",
     border: "1px solid transparent"
   }}

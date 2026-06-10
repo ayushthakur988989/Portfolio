@@ -31,13 +31,15 @@ const About = () => {
   return (
     <section
   id="about"
-  className="relative w-full pb-32 pr-6 pl-1 md:px-12 max-w-[1200px] mx-auto z-10 [perspective:1000px]"
+  className="about-section relative z-10 [perspective:1000px]"
 >
       <ScrollReveal>
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
 
           {/* Left Column: Profile image with 3D Parallax Gold Backdrop */}
-          <div className="lg:col-span-5 flex justify-center lg:justify-start">
+          <div
+            className="about-photo-column lg:col-span-5 flex justify-center lg:justify-start"
+          >
             <div
               ref={photoCardRef}
               onMouseMove={handleMouseMove}
@@ -47,12 +49,12 @@ const About = () => {
                 transformStyle: 'preserve-3d',
                 transition: 'transform 0.15s ease-out'
               }}
-              className="relative w-full max-w-[360px] aspect-[4/5] rounded-[24px] cursor-pointer group shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
+              className="about-photo-card relative rounded-[24px] cursor-pointer group shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
             >
               {/* Glowing Background Backdrop - Gold/Green glow */}
               <div
                 style={{ transform: 'translateZ(-20px)' }}
-                className="absolute inset-0 bg-gradient-to-tr from-[var(--accent-gold)] to-[var(--accent-gold-dark)] rounded-[24px] opacity-80 group-hover:scale-105 group-hover:opacity-20 transition-all duration-500 shadow-[0_0_40px_rgba(12,195,91,0.4)]"
+                className="absolute inset-0 bg-gradient-to-tr from-[var(--accent-gold)] to-[var(--accent-gold-dark)] rounded-[24px] opacity-80 group-hover:scale-105 group-hover:opacity-20 transition-all  duration-500 shadow-[0_0_40px_rgba(12,195,91,0.4)]"
               ></div>
 
               {/* The Actual Photo Layer */}
