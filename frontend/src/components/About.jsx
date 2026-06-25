@@ -117,7 +117,7 @@ const About = () => {
             {/* CTA Download Resume / CV Button */}
             <div className="mt-2">
               <a
-                href="/resume.pdf"
+href="/Ayush Singh resume---.pdf"
                 download="Ayush_Singh_Resume.pdf"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-[var(--accent-gold)] to-[var(--accent-gold-dark)] hover:from-[#0cc35b] hover:to-[#0cc35b] text-black font-extrabold text-sm uppercase tracking-widest rounded-xl transition-all duration-300 shadow-[0_8px_25px_rgba(12,195,91,0.25)] hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(12,195,91,0.35)]"
               >

@@ -248,7 +248,8 @@ const App = () => {
             ))}
             <li>
               <a
-                href="/resume.pdf"
+                href="/Ayush Singh resume---.pdf"
+                
 
                 rel="noopener noreferrer"
                 className="btn-gold-outline"
@@ -364,7 +365,7 @@ const App = () => {
                   </svg>
                 </a>
                 <a
-                  href="/resume.pdf"
+href="/Ayush Singh resume---.pdf"
                   download="Ayush_Singh_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
