@@ -8,8 +8,20 @@ const projects = [
     desc: 'Online Exam Preparation is a web-based platform designed to help students prepare for competitive and academic exams. It provides features like subject-wise study material, mock tests, quizzes, previous year questions, result tracking, and performance analysis. The main goal of this project is to make exam preparation easier, faster, and more organized for students through an online system.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
     features: ['Mock Tests & Quizzes', 'Performance Tracking', 'Subject-wise Study Material'],
-    live: 'https://example.com',
+    live: 'https://exam-prep-tau-five.vercel.app/',
     github: 'https://github.com/ayushthakur988989',
+  },
+  {
+    name: 'AI Resume Builder',
+    desc: 'AI Resume Builder is a full-stack web application that allows users to create, edit, preview, save, and download professional resumes. It includes secure authentication, a responsive dashboard, multiple resume sections, cloud database storage, and PDF export.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'CSS'],
+    features: [
+      'Secure User Authentication',
+      'Live Resume Preview & PDF Export',
+      'MongoDB Resume Storage',
+    ],
+    live: 'https://ai-resume-eosin-one.vercel.app/',
+    github: 'https://github.com/ayushthakur988989/ai-resume',
   },
   {
     name: 'E-Learning Platform',

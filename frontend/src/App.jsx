@@ -172,7 +172,7 @@ const App = () => {
         setIsDarkTheme(true);
         document.documentElement.setAttribute('data-theme', 'dark');
       }
-    } catch (err) {
+    } catch {
       // ignore localStorage errors
     }
   }, []);
@@ -182,7 +182,7 @@ const App = () => {
     setIsDarkTheme(next);
     const themeName = next ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', themeName);
-    try { localStorage.setItem('theme', themeName); } catch (e) { }
+    try { localStorage.setItem('theme', themeName); } catch { /* Storage may be unavailable. */ }
   };
 
   /* ── Toggle slider width tracking ── */
@@ -256,6 +256,9 @@ const App = () => {
               >
                 Resume
               </a>
+            </li>
+            <li>
+              <a href="/login" className="nav-link">Login</a>
             </li>
             <li className="theme-menu-item">
               <button
