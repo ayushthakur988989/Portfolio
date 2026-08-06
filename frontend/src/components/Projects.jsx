@@ -12,6 +12,14 @@ const projects = [
     github: 'https://github.com/ayushthakur988989',
   },
   {
+    name: 'Employee Management System ',
+    desc: 'Employee Management is a web-based platform designed to help employees and employers manage employee information. It provides features like employee details, attendance tracking, leave management, and performance tracking. The main goal of this project is to make employee management easier, faster, and more organized for employees and employers through an online system.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+    features: ['Employee Details', 'Attendance Tracking', 'Leave Management', 'Performance Tracking'],
+    live: 'https://employee-management-system-two-topaz.vercel.app/',
+    github: 'https://github.com/ayushthakur988989/employee-management-system',
+  },
+  {
     name: 'AI Resume Builder',
     desc: 'AI Resume Builder is a full-stack web application that allows users to create, edit, preview, save, and download professional resumes. It includes secure authentication, a responsive dashboard, multiple resume sections, cloud database storage, and PDF export.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'CSS'],
