@@ -91,7 +91,9 @@ const About = () => {
             </div>
 
             <p className="text-lg text-[var(--text-secondary)] leading-relaxed">
-              Hi, I'm <strong className="text-[var(--text-primary)]">Ayush Singh</strong>, a BCA student at Kumaun University and an aspiring Full Stack Developer.
+              Hi, I'm <strong className="text-[var(--text-primary)]">Ayush Singh</strong> a Full Stack Web Developer and MCA student passionate about building modern, responsive, and user-friendly web applications.
+
+I have a strong foundation in JavaScript, React.js, Node.js, Express.js, MongoDB, HTML, and CSS, with hands-on experience building full-stack web projects using the MERN stack.
             </p>
             <p className="text-md text-[var(--text-secondary)] leading-relaxed">
               I enjoy building responsive, modern web applications using React, Node.js, Express, and MongoDB. I have worked on various projects that helped me strengthen my frontend and backend development skills. My goal is to join a professional development team where I can contribute, learn from experienced developers, and grow into a skilled software engineer.
