@@ -31,22 +31,30 @@ const projects = [
     live: 'https://ai-resume-eosin-one.vercel.app/',
     github: 'https://github.com/ayushthakur988989/ai-resume',
   },
-  {
-    name: 'E-Learning Platform',
-    desc: 'The E-Learning UI is a clean and responsive web interface designed for online learning platforms. It provides users with easy access to courses, lessons, study materials, quizzes, and progress tracking. The design focuses on simple navigation, attractive course cards, user-friendly layouts, and a smooth learning experience for students.',
-    tech: ['HTML', 'Tailwind CSS', 'JavaScript', 'CSS'],
-    features: ['Course Cards', 'Quize and test section', 'Progress tracking'],
-    live: 'https://github.com/ayushthakur988989/E-LEARNING-PLATFORM-UI',
-    github: 'https://github.com/ayushthakur988989',
-  },
-  {
-    name: 'Real-time chat application',
-    desc: 'A Real-Time Chat Application is a web-based messaging platform that allows users to send and receive messages instantly. It provides a smooth communication experience with features like live chat, user authentication, online/offline status, and message history. The main goal of this project is to make communication fast, secure, and user-friendly.',
-    tech: ['HTML', 'Tailwind CSS', 'Json', 'JavaScript'],
-    features: ['Instant massaging', 'User authentication', 'Online/Offline status'],
-    live: 'https://github.com/ayushthakur988989/-REAL-TIME-CHAT-APPLICATION',
-    github: 'https://github.com/ayushthakur988989',
-  },
+ {
+  name: 'MargDarshan Job Portal',
+  desc: 'MargDarshan Job Portal is a full-stack web application designed to connect job seekers with relevant job opportunities. It provides a user-friendly platform for browsing jobs, managing applications, and helping recruiters manage job postings.',
+  tech: ['React', 'Node.js', 'Express', 'MongoDB', 'CSS'],
+  features: [
+    'User Authentication & Role-Based Access',
+    'Job Search & Job Listings',
+    'Job Posting & Application Management',
+  ],
+  live: 'https://marg-darshan-jobportal.vercel.app/',
+  github: 'https://github.com/ayushthakur988989/MargDarshan-jobportal',
+},
+ {
+  name: 'Cricketer Portfolio',
+  desc: 'Cricketer Portfolio is a modern and interactive personal portfolio website designed for a professional cricketer. It showcases the player profile, achievements, career highlights, skills, statistics, and other important information through a responsive and engaging user interface.',
+  tech: ['React', 'JavaScript', 'CSS', 'Three.js', 'React Three Fiber'],
+  features: [
+    'Interactive Player Profile & Hero Section',
+    'Career Highlights & Achievements',
+    'Responsive Modern Sports UI',
+  ],
+  live: 'https://cricketer-portfolio-one.vercel.app/',
+  github: 'https://github.com/ayushthakur988989/cricketer-portfolio',
+}
 ];
 
 const Projects = () => {
