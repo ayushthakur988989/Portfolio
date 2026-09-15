@@ -25,7 +25,10 @@ const About = () => {
     { name: 'JavaScript', color: '#f7df1e' },
     { name: 'React', color: '#61dafb' },
     { name: 'Node.js', color: '#339933' },
-    { name: 'MongoDB', color: '#47a248' }
+    { name: 'Express.js', color: '#f7df1e' },
+    { name: 'MongoDB', color: '#47a248' },
+    { name: 'MySQL', color: '#223de4' },
+    { name: 'Git', color: '#264de3' }
   ];
 
   return (
